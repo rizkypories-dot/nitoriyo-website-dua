@@ -133,7 +133,9 @@ function Hero({ eyebrow, title, english, description, image, children }) {
       <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pt-28 lg:px-8">
         <div className="max-w-5xl">
           {isHomeHero ? (
-            <>
+            <><p className="text-red-500 tracking-[0.25em] text-sm md:text-base mb-4">
+  PT Nitoriyo Fuku Hana
+</p>
               <h1 className="text-5xl font-semibold leading-[0.95] tracking-tight text-white md:text-8xl">Industrial Supplier</h1>
               <h2 className="mt-4 text-3xl font-light leading-tight tracking-tight text-zinc-300 md:text-5xl">dengan Pendekatan Engineering</h2>
             </>
@@ -632,3 +634,4 @@ function PreviewApp() {
 }
 
 export default PreviewApp;
+
