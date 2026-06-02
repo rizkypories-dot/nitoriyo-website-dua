@@ -132,14 +132,21 @@ function Hero({ eyebrow, title, english, description, image, children }) {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_74%_42%,rgba(127,29,29,0.24),transparent_36%)]" />
       <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pt-28 lg:px-8">
         <div className="max-w-5xl">
-          {isHomeHero ? (
-           <p className="text-white text-2xl md:text-4xl font-extrabold tracking-[0.08em] mb-6">
-  PT Nitoriyo Fuku Hana
-</p>
-              <h1 className="text-5xl font-semibold leading-[0.95] tracking-tight text-white md:text-8xl">Industrial Supplier</h1>
-              <h2 className="mt-4 text-3xl font-light leading-tight tracking-tight text-zinc-300 md:text-5xl">dengan Pendekatan Engineering</h2>
-            </>
-          ) : (
+        {isHomeHero ? (
+  <>
+    <p className="text-white text-2xl md:text-4xl font-extrabold tracking-[0.08em] mb-6">
+      PT Nitoriyo Fuku Hana
+    </p>
+
+    <h1 className="text-5xl font-semibold leading-[0.95] tracking-tight text-white md:text-8xl">
+      Industrial Supplier
+    </h1>
+
+    <h2 className="mt-4 text-3xl font-light leading-tight tracking-tight text-zinc-300 md:text-5xl">
+      dengan Pendekatan Engineering
+    </h2>
+  </>
+) : (
             <h1 className="text-5xl font-semibold leading-tight tracking-tight text-white md:text-7xl">{title}</h1>
           )}
           <div className="mt-8 space-y-3">
