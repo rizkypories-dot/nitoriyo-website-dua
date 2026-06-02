@@ -133,7 +133,7 @@ function Hero({ eyebrow, title, english, description, image, children }) {
       <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pt-28 lg:px-8">
         <div className="max-w-5xl">
           {isHomeHero ? (
-            <p className="text-zinc-200 tracking-[0.20em] text-base md:text-lg mb-5">
+           <p className="text-zinc-100 tracking-[0.18em] text-lg md:text-2xl mb-6 font-medium">
   PT Nitoriyo Fuku Hana
 </p>
               <h1 className="text-5xl font-semibold leading-[0.95] tracking-tight text-white md:text-8xl">Industrial Supplier</h1>
